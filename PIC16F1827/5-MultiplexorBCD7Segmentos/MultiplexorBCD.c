@@ -75,16 +75,16 @@ void main(){
                
         PORTA = 1;              // Activo el transistor para las unidades
         PORTB = unidades;       // y paso las unidades al display
-        __delay_ms(50);         // Doy un retardo, por lo genhttps://pbs.twimg.com/tweet_video/B62jyp_IUAEo93H.mp4eral en una aplicación real debe ser de unos 3 a 5 milisegundos
+        __delay_ms(10);         // Doy un retardo, por lo general en una aplicación real debe ser de unos 3 a 5 milisegundos
         PORTA = 2;              // Activo el transistor para las decenas
         PORTB = decenas;        // y paso las decenas al display
-        __delay_ms(50);         // Retardo
+        __delay_ms(10);         // Retardo
         PORTA = 4;              // Activo el transistor para las centenas
         PORTB = centenas;       // y paso las centenas al display
-        __delay_ms(50);         // Retardo
+        __delay_ms(10);         // Retardo
         PORTA = 8;              // Activo el transistor para los miles
         PORTB = miles;          // y paso los miles al display
-        __delay_ms(50);
+        __delay_ms(10);
 
         cont++;                 // Incremento en una unidad el contador
     }
