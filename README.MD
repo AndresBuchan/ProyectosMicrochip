@@ -55,3 +55,5 @@ En cada carpeta se encuentran los archivos necesarios para realizar el proyecto:
 **20 - ComSerialRS232TxRx:** Comunicación serial RS232, transmisión y recepción de datos.
 
 **21 - 2MicrosComSerialRS232:** Comunicación serial RS232 entre dos microcontroladores.
+
+**22 - ComSPI3Micros:** Comunicación SPI entre 3 microcontroladores, un maestro y dos esclavos.
